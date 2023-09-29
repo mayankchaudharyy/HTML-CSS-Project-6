@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(img/g5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid rgb(185, 179, 179);
+}
+nav{
+    display: flex;
+    padding: 18px 2%;
+}
+nav h1{
+    font-size: 32px;
+    color: green;
+}
+nav h1 span{
+    color: white;
+    font-size: 25px;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    padding: 0 12px;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color:  rgb(77, 240, 77);
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    padding: 2px;
+    display: block;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    background-color: white;
+}
+.btn{
+    padding: 14px 45px;
+    margin-left: 20%;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: green;
+    border: 4px solid green;
+}
+.text{
+    color: white;
+    margin-top: 14%;
+    text-align: center;
+}
+.text h3{
+    font-size: 20px;
+}
+.text h1{
+    font-size: 80px;
+    line-height: 1.0;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+.button{
+    padding: 14px 45px;
+    font-size: 20px;
+    background-color: white;
+    color: green;
+    border: 4px solid green;
+}
+.button:hover{
+    color: white;
+    background-color: green;
+}
+.about{
+    display: flex;
+    margin: 5% 8%;
+}
+.flex{
+    margin-right: 5%;
+}
+.flex h3{
+    color: green;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.flex h1{
+    font-size: 32px;
+}
+.flex p{
+    margin-left: 20px;
+    line-height: 1.9;
+}
+.flex-img{
+    display: flex;
+    margin: 0 7%;
+}
+.flex-img img{
+    width: 35%;
+}
+.flex-img img:hover{
+    transform: scale(0.9);
+}
+.typers{
+    text-align: center;
+    margin: 5% 0;
+}
+.typers h2{
+    color: green;
+    font-size: 15px;
+}
+.typers h1{
+    font-size: 35px;
+    padding: 20px 0;
+}
+.div{
+    display: flex;
+}
+.typers-e{
+    margin: 0 7%;
+}
+.typers-e h1{
+    text-align: center;
+    color: green;
+    margin-left: 60px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    padding-top: 18px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid green;
+    background: white;
+
+}
+.circle:hover{
+    background-color: green;
+    color: white;
+}
+.typers-e h2{
+      font-size: 28px;
+      padding-bottom: 20px;
+}
+.typers-e h2::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: .5s;
+}
+.typers-e h2:hover::after{
+    width: 100%;
+    background-color: green;
+}
+.typers-e p{
+    font-size: 15px;
+}
+.advisory{
+    display: flex;
+    margin: 10% 0;
+}
+.img1{
+    margin-left: 15%;
+}
+.img1 img{
+    border-radius: 30px;
+    border: 2px solid green;
+    width: 70%;
+    transform: scale(1.3);
+}
+.img1 img:hover{
+    transform: scale(0.9);
+}
+.documents{
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.documents h2{
+    color: green;
+    font-size: 15px;
+}
+.documents h1{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.documents p{
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+.documents li span{
+    color: green;
+}
+.gallery{
+    text-align: center;
+    margin: 10% 0;
+}
+.gallery h2{
+    color: green;
+    font-size: 18px;
+}
+.gallery h1{
+    font-size: 40px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+.col{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.col img{
+    width: 30%;
+    margin: 0 20px;
+}
+.col img:hover{
+    transform: scale(0.8);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 8px green,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+
+}
+.course-catagory{
+    text-align: center;
+}
+.course-catagory h1{
+    font-size: 20px;
+    color: green;
+}
+.course-catagory p{
+    font-size: 50px;
+    color: black;
+}
+.course-details{
+    margin: 1% 3%;
+}
+.divv{
+    display: flex;
+}
+.flexx img{
+    width: 80%;
+    margin-top: 50px;
+}
+.flexx img:hover{
+    transform: scale(1.1);
+}
+.flexx h1{
+    font-size: 28px;
+    color: white;
+    padding-top: 10px 0;
+    background-color: green;
+    margin: 0 40px;
+}
+.flexx p{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px 0;
+    background-color: green;
+    margin: 0 40px;
+}
+.flexx h5{
+    font-size: 17px;
+    color: white;
+    padding-bottom: 10px;
+    background-color: green;
+    margin: 0 40px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 100px;
+    height: 80px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.copyright h1{
+   font-size: 19px;
+   color: white;
+}
